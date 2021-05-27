@@ -1,0 +1,1004 @@
+{
+  "genesis_time": "2021-05-23T20:51:47.558044Z",
+  "chain_id": "bhchain-testnet",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age": "100000"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    }
+  },
+  "app_hash": "",
+  "app_state": {
+    "receipt": {},
+    "hrc10": {
+      "params": {
+        "issue_token_fee": "1000000000000000000"
+      }
+    },
+    "order": {},
+    "crisis": {
+      "constant_fee": {
+        "denom": "hbc",
+        "amount": "1000"
+      }
+    },
+    "distribution": {
+      "fee_pool": {
+        "community_pool": []
+      },
+      "community_tax": "0.020000000000000000",
+      "base_proposer_reward": "0.095000000000000000",
+      "bonus_proposer_reward": "0.040000000000000000",
+      "withdraw_addr_enabled": true,
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": [],
+      "key_node_reward": "0.050000000000000000"
+    },
+    "staking": {
+      "params": {
+        "unbonding_time": "1814400000000000",
+        "max_validators": 35,
+        "max_entries": 7,
+        "bond_denom": "hbc",
+        "max_key_nodes": 8,
+        "min_validator_delegation": "20000000000000000000000",
+        "min_key_node_delegation": "50000000000000000000000",
+        "max_candidate_key_node_heartbeat_interval": "100"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": null,
+      "validators": null,
+      "delegations": null,
+      "unbonding_delegations": null,
+      "redelegations": null,
+      "key_nodes": [
+        "HBCVqo4eR4E55gLedsYnBp2jSUbVu2T448Ux",
+        "HBCXsuSr5W8NjKoRCRoCWiXShtQngDPwHQ6L",
+        "HBCiqjK1SJffrtysZuSH4z4v3ofHhHJrQXEJ",
+        "HBCWxDgiFw5UEzggfBbEXVQ2wXxieKPDXn6U"
+      ],
+      "exported": false
+    },
+    "mapping": {
+      "params": {
+        "new_mapping_fee": "10"
+      }
+    },
+    "mint": {
+      "minter": {},
+      "params": {
+        "mint_denom": "hbc",
+        "mint_for_staking_per_block": "20000000000000000",
+        "mint_for_staking_halve_duration": "5256000",
+        "mint_for_openswap_bonus_start_block": "0",
+        "mint_for_openswap_bonus_per_block": "0",
+        "mint_for_openswap_bonus_halve_duration": "0"
+      }
+    },
+    "accounts": [
+      {
+        "cu_type": "0",
+        "public_key": null,
+        "coins_hold": [],
+        "assets": null,
+        "asset_coins": [],
+        "asset_coins_hold": [],
+        "disable_send_tx": null,
+        "asset_pubkey": null,
+        "gas_used": [],
+        "gas_received": [],
+        "address": "HBCVqo4eR4E55gLedsYnBp2jSUbVu2T448Ux",
+        "coins": [
+          {
+            "denom": "hbc",
+            "amount": "1000000000000000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "cu_type": "0",
+        "public_key": null,
+        "coins_hold": [],
+        "assets": null,
+        "asset_coins": [],
+        "asset_coins_hold": [],
+        "disable_send_tx": null,
+        "asset_pubkey": null,
+        "gas_used": [],
+        "gas_received": [],
+        "address": "HBCXsuSr5W8NjKoRCRoCWiXShtQngDPwHQ6L",
+        "coins": [
+          {
+            "denom": "hbc",
+            "amount": "1000000000000000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "cu_type": "0",
+        "public_key": null,
+        "coins_hold": [],
+        "assets": null,
+        "asset_coins": [],
+        "asset_coins_hold": [],
+        "disable_send_tx": null,
+        "asset_pubkey": null,
+        "gas_used": [],
+        "gas_received": [],
+        "address": "HBCiqjK1SJffrtysZuSH4z4v3ofHhHJrQXEJ",
+        "coins": [
+          {
+            "denom": "hbc",
+            "amount": "1000000000000000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "module_name": "",
+        "module_permissions": null
+      },
+      {
+        "cu_type": "0",
+        "public_key": null,
+        "coins_hold": [],
+        "assets": null,
+        "asset_coins": [],
+        "asset_coins_hold": [],
+        "disable_send_tx": null,
+        "asset_pubkey": null,
+        "gas_used": [],
+        "gas_received": [],
+        "address": "HBCWxDgiFw5UEzggfBbEXVQ2wXxieKPDXn6U",
+        "coins": [
+          {
+            "denom": "hbc",
+            "amount": "1000000000000000000000000"
+          }
+        ],
+        "sequence_number": "0",
+        "module_name": "",
+        "module_permissions": null
+      }
+    ],
+    "gov": {
+      "starting_proposal_id": "1",
+      "deposits": null,
+      "votes": null,
+      "proposals": null,
+      "deposit_params": {
+        "min_init_deposit": [
+          {
+            "denom": "hbc",
+            "amount": "10000000000000000000"
+          }
+        ],
+        "min_deposit": [
+          {
+            "denom": "hbc",
+            "amount": "50000000000000000000"
+          }
+        ],
+        "min_dao_init_deposit": [
+          {
+            "denom": "usdt",
+            "amount": "100000000000"
+          }
+        ],
+        "min_dao_deposit": [
+          {
+            "denom": "usdt",
+            "amount": "200000000000"
+          }
+        ],
+        "max_deposit_period": "172800000000000"
+      },
+      "voting_params": {
+        "voting_period": "172800000000000",
+        "min_vote_time": "60"
+      },
+      "tally_params": {
+        "quorum": "0.667000000000000000",
+        "threshold": "0.750000000000000000",
+        "veto": "0.334000000000000000"
+      },
+      "proposal_only_key_node": true
+    },
+    "openswap": {
+      "params": {
+        "minimum_liquidity": "1000",
+        "limit_swap_matching_gas": "50000",
+        "max_fee_rate": "0.100000000000000000",
+        "lp_reward_rate": "0.001300000000000000",
+        "repurchase_rate": "0.000400000000000000",
+        "referer_transaction_bonus_rate": "0.000100000000000000",
+        "repurchase_duration": "1000",
+        "lp_mining_weights": [],
+        "trade_mining_weights": [],
+        "lp_mining_reward_rate": "0.900000000000000000",
+        "repurchase_token": "hbc",
+        "repurchase_routing_token": "HBCCTbZ8iiERWN5jQrV4b3cx9HxEpru8KRTx"
+      }
+    },
+    "params": null,
+    "cu": {
+      "custodianunits": [],
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      }
+    },
+    "transfer": {
+      "send_enabled": true
+    },
+    "supply": {
+      "supply": []
+    },
+    "token": {
+      "genesis_tokens": [
+        {
+          "type": "bhexchain/types/BaseToken",
+          "value": {
+            "name": "hbc",
+            "symbol": "hbc",
+            "issuer": "",
+            "chain": "hbc",
+            "send_enabled": true,
+            "decimals": "18",
+            "total_supply": "21000000000000000000000000",
+            "weight": "10",
+            "map_token": true
+          }
+        },
+        {
+          "type": "bhexchain/types/BaseToken",
+          "value": {
+            "name": "usdt",
+            "symbol": "HBCCTbZ8iiERWN5jQrV4b3cx9HxEpru8KRTx",
+            "issuer": "",
+            "chain": "hbc",
+            "send_enabled": true,
+            "decimals": "18",
+            "total_supply": "1000000000000000000000000000",
+            "weight": "0",
+            "map_token": true
+          }
+        },
+        {
+          "type": "bhexchain/types/BaseToken",
+          "value": {
+            "name": "btc",
+            "symbol": "HBC3beFDx1ExsUe9aqHKS8h6HRiPid6kbUDD",
+            "issuer": "",
+            "chain": "hbc",
+            "send_enabled": true,
+            "decimals": "8",
+            "total_supply": "2100000000000000",
+            "weight": "20",
+            "map_token": true
+          }
+        },
+        {
+          "type": "bhexchain/types/BaseToken",
+          "value": {
+            "name": "eth",
+            "symbol": "HBCK13oCfeQ3ddDoaLER6gB5hTiMY1cEhdLS",
+            "issuer": "",
+            "chain": "hbc",
+            "send_enabled": true,
+            "decimals": "18",
+            "total_supply": "1000000000000000000000000000",
+            "weight": "21",
+            "map_token": true
+          }
+        },
+        {
+          "type": "bhexchain/types/BaseToken",
+          "value": {
+            "name": "trx",
+            "symbol": "HBCcjUikdc8DUKNe3u4ERYgjr3JEHRJCUz7",
+            "issuer": "",
+            "chain": "hbc",
+            "send_enabled": true,
+            "decimals": "6",
+            "total_supply": "100000000000000000",
+            "weight": "22",
+            "map_token": true
+          }
+        },
+        {
+          "type": "bhexchain/types/BaseToken",
+          "value": {
+            "name": "ht",
+            "symbol": "HBCNxLQjH2r2F1fvXD649cKTqL91UhrN2iUG",
+            "issuer": "",
+            "chain": "hbc",
+            "send_enabled": true,
+            "decimals": "18",
+            "total_supply": "500000000000000000000000000",
+            "weight": "22",
+            "map_token": true
+          }
+        },
+        {
+          "type": "bhexchain/types/BaseToken",
+          "value": {
+            "name": "bnb",
+            "symbol": "HBCA7iPPSgsc9fmADPXmfrT8asG8Qoe9qcTd",
+            "issuer": "",
+            "chain": "hbc",
+            "send_enabled": true,
+            "decimals": "18",
+            "total_supply": "200000000000000000000000000",
+            "weight": "22",
+            "map_token": true
+          }
+        },
+        {
+          "type": "bhexchain/types/IBCToken",
+          "value": {
+            "BaseToken": {
+              "name": "btc",
+              "symbol": "btc",
+              "issuer": "",
+              "chain": "btc",
+              "send_enabled": true,
+              "decimals": "8",
+              "total_supply": "2100000000000000",
+              "weight": "20",
+              "map_token": false
+            },
+            "type": "1",
+            "deposit_enabled": true,
+            "withdrawal_enabled": true,
+            "collect_threshold": "1000000",
+            "deposit_threshold": "1000000",
+            "open_fee": "10000000000000000",
+            "sys_open_fee": "0",
+            "withdrawal_fee_rate": "1.000000000000000000",
+            "max_op_cu_number": "4",
+            "sys_transfer_num": "1",
+            "op_cu_sys_transfer_num": "1",
+            "gas_limit": "1",
+            "gas_price": "10000",
+            "confirmations": "6",
+            "is_nonce_based": false,
+            "need_collect_fee": true,
+            "mapping_symbol": "HBC3beFDx1ExsUe9aqHKS8h6HRiPid6kbUDD"
+          }
+        },
+        {
+          "type": "bhexchain/types/IBCToken",
+          "value": {
+            "BaseToken": {
+              "name": "eth",
+              "symbol": "eth",
+              "issuer": "",
+              "chain": "eth",
+              "send_enabled": true,
+              "decimals": "18",
+              "total_supply": "1000000000000000000000000000",
+              "weight": "21",
+              "map_token": false
+            },
+            "type": "2",
+            "deposit_enabled": true,
+            "withdrawal_enabled": true,
+            "collect_threshold": "100000000000000000",
+            "deposit_threshold": "100000000000000000",
+            "open_fee": "10000000000000000",
+            "sys_open_fee": "100000000000000000",
+            "withdrawal_fee_rate": "1.000000000000000000",
+            "max_op_cu_number": "4",
+            "sys_transfer_num": "1",
+            "op_cu_sys_transfer_num": "1",
+            "gas_limit": "21000",
+            "gas_price": "10000",
+            "confirmations": "2",
+            "is_nonce_based": true,
+            "need_collect_fee": true,
+            "mapping_symbol": "HBCK13oCfeQ3ddDoaLER6gB5hTiMY1cEhdLS"
+          }
+        },
+        {
+          "type": "bhexchain/types/IBCToken",
+          "value": {
+            "BaseToken": {
+              "name": "hbc",
+              "symbol": "ETHBzc3ACTqU2cwEa2cs6g8kG9SDHQvzpMVr",
+              "issuer": "0x28Da24ed20906CDE186D8B4f83412C3AE37a6269",
+              "chain": "eth",
+              "send_enabled": true,
+              "decimals": "18",
+              "total_supply": "21000000000000000000000000",
+              "weight": "10",
+              "map_token": false
+            },
+            "type": "2",
+            "deposit_enabled": true,
+            "withdrawal_enabled": true,
+            "collect_threshold": "1000000000000000000",
+            "deposit_threshold": "1000000000000000000",
+            "open_fee": "10000000000000000",
+            "sys_open_fee": "100000000000000000",
+            "withdrawal_fee_rate": "1.000000000000000000",
+            "max_op_cu_number": "4",
+            "sys_transfer_num": "1",
+            "op_cu_sys_transfer_num": "2",
+            "gas_limit": "80000",
+            "gas_price": "5000000000",
+            "confirmations": "15",
+            "is_nonce_based": true,
+            "need_collect_fee": true,
+            "mapping_symbol": "hbc"
+          }
+        },
+        {
+          "type": "bhexchain/types/IBCToken",
+          "value": {
+            "BaseToken": {
+              "name": "usdt",
+              "symbol": "ETHK54cjYMYAi99VuqXeCWVX5iaZj7qWGrB6",
+              "issuer": "0xa5cae37c9c0eb8c5c8a2a7d937bf5b39421be3da",
+              "chain": "eth",
+              "send_enabled": true,
+              "decimals": "6",
+              "total_supply": "100000000000000000",
+              "weight": "0",
+              "map_token": false
+            },
+            "type": "2",
+            "deposit_enabled": true,
+            "withdrawal_enabled": true,
+            "collect_threshold": "10000000",
+            "deposit_threshold": "10000000",
+            "open_fee": "10000000000000000",
+            "sys_open_fee": "100000000000000000",
+            "withdrawal_fee_rate": "1.000000000000000000",
+            "max_op_cu_number": "4",
+            "sys_transfer_num": "1",
+            "op_cu_sys_transfer_num": "2",
+            "gas_limit": "30000",
+            "gas_price": "5000000000",
+            "confirmations": "2",
+            "is_nonce_based": true,
+            "need_collect_fee": true,
+            "mapping_symbol": "HBCCTbZ8iiERWN5jQrV4b3cx9HxEpru8KRTx"
+          }
+        },
+        {
+          "type": "bhexchain/types/IBCToken",
+          "value": {
+            "BaseToken": {
+              "name": "link",
+              "symbol": "ETH4RsTRYbu8dkLCVksZrKr1yjVHsZdNLVhV",
+              "issuer": "0x514910771af9ca656af840dff83e8264ecf986ca",
+              "chain": "eth",
+              "send_enabled": true,
+              "decimals": "18",
+              "total_supply": "1000000000000000000000000000",
+              "weight": "24",
+              "map_token": false
+            },
+            "type": "2",
+            "deposit_enabled": true,
+            "withdrawal_enabled": true,
+            "collect_threshold": "5000000000000000000",
+            "deposit_threshold": "5000000000000000000",
+            "open_fee": "10000000000000000",
+            "sys_open_fee": "100000000000000000",
+            "withdrawal_fee_rate": "1.000000000000000000",
+            "max_op_cu_number": "4",
+            "sys_transfer_num": "1",
+            "op_cu_sys_transfer_num": "2",
+            "gas_limit": "80000",
+            "gas_price": "1000",
+            "confirmations": "15",
+            "is_nonce_based": true,
+            "need_collect_fee": true,
+            "mapping_symbol": "HBCxx6yUvzZAdUSoYu28dmrMKMcqKGRFVGa"
+          }
+        },
+        {
+          "type": "bhexchain/types/IBCToken",
+          "value": {
+            "BaseToken": {
+              "name": "trx",
+              "symbol": "trx",
+              "issuer": "",
+              "chain": "trx",
+              "send_enabled": true,
+              "decimals": "6",
+              "total_supply": "100000000000000000",
+              "weight": "22",
+              "map_token": false
+            },
+            "type": "2",
+            "deposit_enabled": true,
+            "withdrawal_enabled": true,
+            "collect_threshold": "100000000",
+            "deposit_threshold": "100000000",
+            "open_fee": "10000000000000000",
+            "sys_open_fee": "100000000000000000",
+            "withdrawal_fee_rate": "1.000000000000000000",
+            "max_op_cu_number": "4",
+            "sys_transfer_num": "1",
+            "op_cu_sys_transfer_num": "5",
+            "gas_limit": "1000000",
+            "gas_price": "1",
+            "confirmations": "20",
+            "is_nonce_based": false,
+            "need_collect_fee": true,
+            "mapping_symbol": "HBCcjUikdc8DUKNe3u4ERYgjr3JEHRJCUz7"
+          }
+        },
+        {
+          "type": "bhexchain/types/IBCToken",
+          "value": {
+            "BaseToken": {
+              "name": "usdt",
+              "symbol": "TRX8sQWNB52Fx5tBJ2Z4QR1Z5vqDJnxRYgR1",
+              "issuer": "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t",
+              "chain": "trx",
+              "send_enabled": true,
+              "decimals": "6",
+              "total_supply": "100000000000000000",
+              "weight": "0",
+              "map_token": false
+            },
+            "type": "2",
+            "deposit_enabled": true,
+            "withdrawal_enabled": true,
+            "collect_threshold": "10000000",
+            "deposit_threshold": "10000000",
+            "open_fee": "10000000000000000",
+            "sys_open_fee": "100000000000000000",
+            "withdrawal_fee_rate": "1.000000000000000000",
+            "max_op_cu_number": "4",
+            "sys_transfer_num": "1",
+            "op_cu_sys_transfer_num": "5",
+            "gas_limit": "6000000",
+            "gas_price": "1",
+            "confirmations": "20",
+            "is_nonce_based": false,
+            "need_collect_fee": true,
+            "mapping_symbol": "HBCCTbZ8iiERWN5jQrV4b3cx9HxEpru8KRTx"
+          }
+        },
+        {
+          "type": "bhexchain/types/IBCToken",
+          "value": {
+            "BaseToken": {
+              "name": "ht",
+              "symbol": "ht",
+              "issuer": "",
+              "chain": "ht",
+              "send_enabled": true,
+              "decimals": "18",
+              "total_supply": "500000000000000000000000000",
+              "weight": "21",
+              "map_token": false
+            },
+            "type": "2",
+            "deposit_enabled": true,
+            "withdrawal_enabled": true,
+            "collect_threshold": "200000000000000000",
+            "deposit_threshold": "200000000000000000",
+            "open_fee": "10000000000000000",
+            "sys_open_fee": "100000000000000000",
+            "withdrawal_fee_rate": "1.000000000000000000",
+            "max_op_cu_number": "4",
+            "sys_transfer_num": "1",
+            "op_cu_sys_transfer_num": "2",
+            "gas_limit": "21000",
+            "gas_price": "5000000000",
+            "confirmations": "20",
+            "is_nonce_based": true,
+            "need_collect_fee": true,
+            "mapping_symbol": "HBCNxLQjH2r2F1fvXD649cKTqL91UhrN2iUG"
+          }
+        },
+        {
+          "type": "bhexchain/types/IBCToken",
+          "value": {
+            "BaseToken": {
+              "name": "hbc",
+              "symbol": "HTK4sZkzYVL2ndWyAqvAYMJaoDSvn7gSNm1",
+              "issuer": "0x894b2917c783514c9e4c24229bf60f3cb4c9c905",
+              "chain": "ht",
+              "send_enabled": true,
+              "decimals": "18",
+              "total_supply": "21000000000000000000000000",
+              "weight": "10",
+              "map_token": false
+            },
+            "type": "2",
+            "deposit_enabled": true,
+            "withdrawal_enabled": true,
+            "collect_threshold": "1000000000000000000",
+            "deposit_threshold": "1000000000000000000",
+            "open_fee": "10000000000000000",
+            "sys_open_fee": "100000000000000000",
+            "withdrawal_fee_rate": "1.000000000000000000",
+            "max_op_cu_number": "4",
+            "sys_transfer_num": "1",
+            "op_cu_sys_transfer_num": "2",
+            "gas_limit": "80000",
+            "gas_price": "5000000000",
+            "confirmations": "20",
+            "is_nonce_based": true,
+            "need_collect_fee": true,
+            "mapping_symbol": "hbc"
+          }
+        },
+        {
+          "type": "bhexchain/types/IBCToken",
+          "value": {
+            "BaseToken": {
+              "name": "usdt",
+              "symbol": "HTBoA1X2mYJXSgSQu2DWNGqYtpeR4PoXiD8",
+              "issuer": "0xa71edc38d189767582c38a3145b5873052c3e47a",
+              "chain": "ht",
+              "send_enabled": true,
+              "decimals": "18",
+              "total_supply": "500000000000000000000000000",
+              "weight": "0",
+              "map_token": false
+            },
+            "type": "2",
+            "deposit_enabled": true,
+            "withdrawal_enabled": true,
+            "collect_threshold": "1000000000000000000",
+            "deposit_threshold": "1000000000000000000",
+            "open_fee": "10000000000000000",
+            "sys_open_fee": "100000000000000000",
+            "withdrawal_fee_rate": "1.000000000000000000",
+            "max_op_cu_number": "4",
+            "sys_transfer_num": "1",
+            "op_cu_sys_transfer_num": "2",
+            "gas_limit": "80000",
+            "gas_price": "5000000000",
+            "confirmations": "20",
+            "is_nonce_based": true,
+            "need_collect_fee": true,
+            "mapping_symbol": "HBCCTbZ8iiERWN5jQrV4b3cx9HxEpru8KRTx"
+          }
+        },
+        {
+          "type": "bhexchain/types/IBCToken",
+          "value": {
+            "BaseToken": {
+              "name": "bnb",
+              "symbol": "bnb",
+              "issuer": "",
+              "chain": "bnb",
+              "send_enabled": true,
+              "decimals": "18",
+              "total_supply": "200000000000000000000000000",
+              "weight": "21",
+              "map_token": false
+            },
+            "type": "2",
+            "deposit_enabled": true,
+            "withdrawal_enabled": true,
+            "collect_threshold": "1000000000000000000",
+            "deposit_threshold": "1000000000000000000",
+            "open_fee": "10000000000000000",
+            "sys_open_fee": "100000000000000000",
+            "withdrawal_fee_rate": "1.000000000000000000",
+            "max_op_cu_number": "4",
+            "sys_transfer_num": "1",
+            "op_cu_sys_transfer_num": "2",
+            "gas_limit": "21000",
+            "gas_price": "5000000000",
+            "confirmations": "20",
+            "is_nonce_based": true,
+            "need_collect_fee": true,
+            "mapping_symbol": "HBCA7iPPSgsc9fmADPXmfrT8asG8Qoe9qcTd"
+          }
+        },
+        {
+          "type": "bhexchain/types/IBCToken",
+          "value": {
+            "BaseToken": {
+              "name": "usdt",
+              "symbol": "BNB6fMR4qw2JbuDia9hb5i4a2eukEVahA1Z6",
+              "issuer": "0x55d398326f99059ff775485246999027b3197955",
+              "chain": "bnb",
+              "send_enabled": true,
+              "decimals": "18",
+              "total_supply": "500000000000000000000000000",
+              "weight": "0",
+              "map_token": false
+            },
+            "type": "2",
+            "deposit_enabled": true,
+            "withdrawal_enabled": true,
+            "collect_threshold": "1000000000000000000",
+            "deposit_threshold": "1000000000000000000",
+            "open_fee": "10000000000000000",
+            "sys_open_fee": "100000000000000000",
+            "withdrawal_fee_rate": "1.000000000000000000",
+            "max_op_cu_number": "4",
+            "sys_transfer_num": "1",
+            "op_cu_sys_transfer_num": "2",
+            "gas_limit": "80000",
+            "gas_price": "5000000000",
+            "confirmations": "20",
+            "is_nonce_based": true,
+            "need_collect_fee": true,
+            "mapping_symbol": "HBCCTbZ8iiERWN5jQrV4b3cx9HxEpru8KRTx"
+          }
+        },
+        {
+          "type": "bhexchain/types/IBCToken",
+          "value": {
+            "BaseToken": {
+              "name": "doge",
+              "symbol": "doge",
+              "issuer": "",
+              "chain": "doge",
+              "send_enabled": true,
+              "decimals": "8",
+              "total_supply": "2100000000000000",
+              "weight": "23",
+              "map_token": false
+            },
+            "type": "1",
+            "deposit_enabled": true,
+            "withdrawal_enabled": true,
+            "collect_threshold": "1000000000",
+            "deposit_threshold": "1000000000",
+            "open_fee": "10000000000000000",
+            "sys_open_fee": "0",
+            "withdrawal_fee_rate": "1.000000000000000000",
+            "max_op_cu_number": "4",
+            "sys_transfer_num": "1",
+            "op_cu_sys_transfer_num": "2",
+            "gas_limit": "10000",
+            "gas_price": "5000000000",
+            "confirmations": "6",
+            "is_nonce_based": false,
+            "need_collect_fee": true,
+            "mapping_symbol": "HBCEMyqVjxgDMBKQgKKDg8gw2iLt3uunZgU3"
+          }
+        }
+      ]
+    },
+    "upgrade": {},
+    "genutil": {
+      "gentxs": [
+        {
+          "type": "bhexchain/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "bhexchain/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "node3",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.000000000000000000",
+                    "max_rate": "0.000000000000000000",
+                    "max_change_rate": "0.000000000000000000"
+                  },
+                  "min_self_delegation": "20000000000000000000000",
+                  "delegator_address": "HBCWxDgiFw5UEzggfBbEXVQ2wXxieKPDXn6U",
+                  "validator_address": "hbcvaloper1wcfc2uuypcvujsxadh9pkayxyygz0halq7x5sn",
+                  "pubkey": "hbcvalconspub1zcjduepqf72h60ny6n4c788pnc48u87fmha05crf40aqvrwqs3chgk2h3gtszcphgx",
+                  "value": {
+                    "denom": "hbc",
+                    "amount": "500000000000000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "0"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "A8ZC5gDC2l2j+fFsg4IJQefBwa2mosz8RPR5aI9kGsqS"
+                },
+                "signature": "c46FFC7T9i6B6xcZVTS+L+2hJSun9TbQ75/QQ4NAmahLRjwor+pBpGmMHOM4mJrkqlb4AaNnHarNh/7gpE3kgg=="
+              }
+            ],
+            "memo": "1c4912b0a6be4f59e68fede8fcf36479530f8db2@127.0.0.1:26686"
+          }
+        },
+        {
+          "type": "bhexchain/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "bhexchain/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "node2",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.000000000000000000",
+                    "max_rate": "0.000000000000000000",
+                    "max_change_rate": "0.000000000000000000"
+                  },
+                  "min_self_delegation": "20000000000000000000000",
+                  "delegator_address": "HBCiqjK1SJffrtysZuSH4z4v3ofHhHJrQXEJ",
+                  "validator_address": "hbcvaloper1lpadjmskf668x72rqaxw2r8uf9cva2az8uy7vc",
+                  "pubkey": "hbcvalconspub1zcjduepqkkz4lnvwny6nsxa4a792fhcx5gv07gnqlc5cypl46w8pheazxq4q7rveu3",
+                  "value": {
+                    "denom": "hbc",
+                    "amount": "500000000000000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "0"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "A241pMmtoe0idDSXQftKTR/P6ShmsBFilmC25j6L5Jfc"
+                },
+                "signature": "C8SEA/azf4Iouup+OM20tpcDxS0sg0vCYEVmviaYNkwbzMshv/TVv2iJ7sP15UCaaQNeJs7noxOfn89NOO/IvA=="
+              }
+            ],
+            "memo": "0f13134e2056bbfb488c1fd60a86ac7ab700fe10@127.0.0.1:26676"
+          }
+        },
+        {
+          "type": "bhexchain/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "bhexchain/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "node1",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.000000000000000000",
+                    "max_rate": "0.000000000000000000",
+                    "max_change_rate": "0.000000000000000000"
+                  },
+                  "min_self_delegation": "20000000000000000000000",
+                  "delegator_address": "HBCXsuSr5W8NjKoRCRoCWiXShtQngDPwHQ6L",
+                  "validator_address": "hbcvaloper1sqavyr5t9ug9qpkz6f7xd6fxgjl6dmggpzc47k",
+                  "pubkey": "hbcvalconspub1zcjduepqzzh2j48p5gvu27hfsrjyjv8x4stvhwck84njfpfalwa2f6aptlkq34qaan",
+                  "value": {
+                    "denom": "hbc",
+                    "amount": "500000000000000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "0"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "AvEw3f79HVCpF/57m9ByI4XWet8O6+bgVxfusgBg6dEj"
+                },
+                "signature": "f8A5KD5dUSZHOG6MPCmc5lsiWBiOJMM+a7TqUhScXBdyiwxqZrv4rG5QF7MqYyUkauq8V8QRhu7bz4/8Vzi0iQ=="
+              }
+            ],
+            "memo": "6f622772c201846b66b8e76639d372347d564a05@127.0.0.1:26666"
+          }
+        },
+        {
+          "type": "bhexchain/StdTx",
+          "value": {
+            "msg": [
+              {
+                "type": "bhexchain/MsgCreateValidator",
+                "value": {
+                  "description": {
+                    "moniker": "node0",
+                    "identity": "",
+                    "website": "",
+                    "details": ""
+                  },
+                  "commission": {
+                    "rate": "0.000000000000000000",
+                    "max_rate": "0.000000000000000000",
+                    "max_change_rate": "0.000000000000000000"
+                  },
+                  "min_self_delegation": "20000000000000000000000",
+                  "delegator_address": "HBCVqo4eR4E55gLedsYnBp2jSUbVu2T448Ux",
+                  "validator_address": "hbcvaloper1d8j93v3npxqt24cctrp24u5hl39shker6kpcze",
+                  "pubkey": "hbcvalconspub1zcjduepqea3a7n6s4vt4sck6yrk8rnulzlv5uqwrk3a20x6fhw38c3xkuaqqccauhx",
+                  "value": {
+                    "denom": "hbc",
+                    "amount": "500000000000000000000000"
+                  }
+                }
+              }
+            ],
+            "fee": {
+              "amount": [],
+              "gas": "0"
+            },
+            "signatures": [
+              {
+                "pub_key": {
+                  "type": "tendermint/PubKeySecp256k1",
+                  "value": "AiczGmLJsC3uas62KgymO/GPp0+/M4Uz+KjpZmYdT2C9"
+                },
+                "signature": "i9P8jMHXDg+MFqynRHfYOd4G1J3QXonGoTInh2xgzipwCmlrvsDNBsWJqeOnD7kf4G8HEy7tN+0zHoQH8DQaeg=="
+              }
+            ],
+            "memo": "3e31ff39f9e85fb5cc8cf1137889d6296b50f040@127.0.0.1:26656"
+          }
+        }
+      ]
+    },
+    "slashing": {
+      "params": {
+        "max_evidence_age": "120000000000",
+        "signed_blocks_window": "100",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600000000000",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      },
+      "signing_infos": {},
+      "missed_blocks": {}
+    },
+    "keygen": {},
+    "ibcasset": {},
+    "evidence": {
+      "BehaviourParams": {
+        "Vote": {
+          "BehaviourWindow": "30000",
+          "MaxMisbehaviourCount": "20000",
+          "BehaviourSlashFraction": "0.010000000000000000"
+        },
+        "dsign": {
+          "BehaviourWindow": "30000",
+          "MaxMisbehaviourCount": "20000",
+          "BehaviourSlashFraction": "0.010000000000000000"
+        }
+      }
+    }
+  }
+}
