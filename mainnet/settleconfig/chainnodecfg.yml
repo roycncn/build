@@ -1,0 +1,52 @@
+network: mainnet
+
+server:
+  port: ""
+fullnode:
+  btc:
+    rpcs:
+    - rpc_url: 18.237.23.45:6600
+      rpc_user: bhex
+      rpc_pass: ApnZjLcI9tNCEVBI
+    confirmations: 6
+  eth:
+    rpcs:
+    - rpc_url: http://13.231.24.116:6610
+      rpc_user: ""
+      rpc_pass: ""
+    confirmations: 15
+  trx:
+    rpcs:
+    - rpc_url: 54.199.84.88:6684
+      rpc_user: ""
+      rpc_pass: ""
+    confirmations: 20
+  ltc:
+    rpcs: []
+    confirmations: 0
+  ht:
+    rpcs:
+    - rpc_url: http://18.180.154.121:6610
+      rpc_user: ""
+      rpc_pass: ""
+    confirmations: 20
+  bnb:
+    rpcs:
+    - rpc_url: http://18.177.119.130:6695
+      rpc_user: ""
+      rpc_pass: ""
+    confirmations: 15
+  doge:
+    rpcs:
+    - rpc_url: 18.179.84.98:6694
+      rpc_user: bhex
+      rpc_pass: ApnZjLcI9tNCEVBI
+    confirmations: 6
+network: mainnet
+chains:
+- btc
+- eth
+- trx
+- ht
+- doge
+- bnb
