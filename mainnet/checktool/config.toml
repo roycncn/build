@@ -1,0 +1,17 @@
+
+[check.hbtcd.bin]
+md5 = "f0a975a2a25dc0e4e735d2674cc430a0"
+
+[check.settle.bin]
+md5 = "e8cd3d9164d20d623896d89effc0974f"
+
+[check.chainCfg.config]
+"app.toml" = "c94458ae9e56ef9e1ce6a5d2df964003"
+"config.toml" = "05e34bd6f840eaa9033335d7a9b81094"
+"genesis.json" = "d263e907968bcebca7e20b16f23a7560"
+
+[check.chainCfg.data]
+"priv_validator_state.json" = "8c6229ebf0ee462f1fd2c435a3a7524b"
+
+[check.settleCfg.config]
+"chainnodecfg.yml" = "32f83d612c07ce26382120d3f67b2c90"
