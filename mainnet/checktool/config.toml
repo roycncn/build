@@ -14,4 +14,4 @@ md5 = "e8cd3d9164d20d623896d89effc0974f"
 "priv_validator_state.json" = "8c6229ebf0ee462f1fd2c435a3a7524b"
 
 [check.settleCfg.config]
-"chainnodecfg.yml" = "32f83d612c07ce26382120d3f67b2c90"
+"chainnodecfg.yml" = "33b8240d8d6a9a10aa297b3e5a01accd"
