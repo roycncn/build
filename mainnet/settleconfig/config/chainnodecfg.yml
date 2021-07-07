@@ -17,7 +17,7 @@ fullnode:
     confirmations: 15
   trx:
     rpcs:
-    - rpc_url: 54.199.84.88:6684
+    - rpc_url: 103.4.11.36:6684
       rpc_user: ""
       rpc_pass: ""
     confirmations: 20
